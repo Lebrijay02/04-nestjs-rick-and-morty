@@ -1,6 +1,4 @@
 "use client"
-// components/CharacterCard.tsx
-// components/CharacterCard.tsx
 import React from 'react';
 import Link from 'next/link';
 
@@ -28,7 +26,7 @@ interface Character {
 interface CharacterCardProps {
  character: Character;
  onToggleFavorite: (id: number) => void;
- isFavorite: boolean; // New prop to indicate if the character is favorited
+ isFavorite: boolean; 
 }
 
 const CharacterCard: React.FC<CharacterCardProps> = ({ character, onToggleFavorite, isFavorite }) => {

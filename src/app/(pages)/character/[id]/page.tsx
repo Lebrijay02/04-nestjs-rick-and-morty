@@ -1,5 +1,4 @@
 "use client"
-// src/app/pages/character/[id]/page.tsx
 import React, { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 

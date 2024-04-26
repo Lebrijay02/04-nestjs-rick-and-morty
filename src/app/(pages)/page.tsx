@@ -1,5 +1,4 @@
 "use client"
-// pages/index.tsx
 import React, { useEffect, useState } from 'react';
 import CharacterCard from './components/CharacterCard';
 import Cookies from 'js-cookie';
